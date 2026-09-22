@@ -1,0 +1,2 @@
+<footer class="site-footer" id="contact"><p class="eyebrow">Heb je een stageplek?</p><h2>Laten we iets <em>goeds</em> bouwen.</h2><a class="text-link" href="mailto:<?php echo esc_attr( dp_option( 'email', 'isaak.belkadi@gmail.com' ) ); ?>"><?php echo esc_html( dp_option( 'email', 'isaak.belkadi@gmail.com' ) ); ?> <span>↗</span></a><div class="footer-bottom"><p>© <?php echo esc_html( wp_date( 'Y' ) ); ?> <?php echo esc_html( dp_option( 'name', 'Isaak Belkadi' ) ); ?></p><a href="#top">Terug naar boven ↑</a></div></footer>
+<?php wp_footer(); ?></body></html>

@@ -1,0 +1,1 @@
+<?php get_header(); ?><main id="main" class="page-shell"><header class="page-intro"><p class="eyebrow">Portfolio</p><h1><?php single_post_title(); ?></h1></header><?php while ( have_posts() ) : the_post(); the_content(); endwhile; ?></main><?php get_footer(); ?>

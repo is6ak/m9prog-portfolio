@@ -1,0 +1,4 @@
+/* Kept separate so keyboard affordances remain easy to audit. */
+a:focus-visible,button:focus-visible{outline:2px solid #d9ad45;outline-offset:5px}
+.primary-nav a:focus-visible{color:#d9ad45}
+@media (hover:hover){.text-link:hover{color:#d9ad45}.round-link:hover{background:#d9ad45;color:#121210}}
